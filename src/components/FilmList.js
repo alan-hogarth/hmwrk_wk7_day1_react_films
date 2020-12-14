@@ -13,7 +13,9 @@ const FilmList = ({names}) => {
 
     return (
         <> 
+            <h2>Titles</h2>
             {titleElements}
+            <p><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases > > </a></p>
         </>
 
     );
