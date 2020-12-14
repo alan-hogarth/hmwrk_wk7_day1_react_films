@@ -4,8 +4,9 @@ const Film = ({title, url}) => {
     
     return (
     <>
-        <p>{title}</p>
-        <p>{url}</p>
+        <ul>
+            <li><a href={url}><br></br>{title}</a></li>
+        </ul>
     </>
     );
 }
